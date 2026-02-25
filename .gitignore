@@ -1,0 +1,20 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# SwiftPM
+.build/
+
+# CocoaPods
+Pods/
+
+# macOS
+.DS_Store
+
+# Local AI secrets (never commit)
+EcoChef/Config/AIKeys.xcconfig
+

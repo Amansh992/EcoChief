@@ -1,0 +1,12 @@
+// Copy this file to AIKeys.xcconfig (gitignored) and fill values.
+// Then set these values in Xcode Build Settings for EcoChef target,
+// or export the same names as environment variables in your Run scheme.
+
+OPENAI_API_KEY =
+OPENAI_MODEL = gpt-4o-mini
+
+GEMINI_API_KEY =
+GEMINI_MODEL = gemini-1.5-flash
+
+// auto | gemini | openai | offline
+AI_PROVIDER = auto

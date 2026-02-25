@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ACC5497D2F41ED0C000820DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC549672F41ED0A000820DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC5496E2F41ED0A000820DF;
+			remoteInfo = EcoChef;
+		};
+		ACC549872F41ED0C000820DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC549672F41ED0A000820DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC5496E2F41ED0A000820DF;
+			remoteInfo = EcoChef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACC5496F2F41ED0A000820DF /* EcoChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC5497C2F41ED0C000820DF /* EcoChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC549862F41ED0C000820DF /* EcoChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ACC549712F41ED0A000820DF /* EcoChef */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EcoChef;
+			sourceTree = "<group>";
+		};
+		ACC5497F2F41ED0C000820DF /* EcoChefTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EcoChefTests;
+			sourceTree = "<group>";
+		};
+		ACC549892F41ED0C000820DF /* EcoChefUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EcoChefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC5496C2F41ED0A000820DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC549792F41ED0C000820DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC549832F41ED0C000820DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC549662F41ED0A000820DF = {
+			isa = PBXGroup;
+			children = (
+				ACC549712F41ED0A000820DF /* EcoChef */,
+				ACC5497F2F41ED0C000820DF /* EcoChefTests */,
+				ACC549892F41ED0C000820DF /* EcoChefUITests */,
+				ACC549702F41ED0A000820DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC549702F41ED0A000820DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC5496F2F41ED0A000820DF /* EcoChef.app */,
+				ACC5497C2F41ED0C000820DF /* EcoChefTests.xctest */,
+				ACC549862F41ED0C000820DF /* EcoChefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC5496E2F41ED0A000820DF /* EcoChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC549902F41ED0C000820DF /* Build configuration list for PBXNativeTarget "EcoChef" */;
+			buildPhases = (
+				ACC5496B2F41ED0A000820DF /* Sources */,
+				ACC5496C2F41ED0A000820DF /* Frameworks */,
+				ACC5496D2F41ED0A000820DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ACC549712F41ED0A000820DF /* EcoChef */,
+			);
+			name = EcoChef;
+			packageProductDependencies = (
+			);
+			productName = EcoChef;
+			productReference = ACC5496F2F41ED0A000820DF /* EcoChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC5497B2F41ED0C000820DF /* EcoChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC549932F41ED0C000820DF /* Build configuration list for PBXNativeTarget "EcoChefTests" */;
+			buildPhases = (
+				ACC549782F41ED0C000820DF /* Sources */,
+				ACC549792F41ED0C000820DF /* Frameworks */,
+				ACC5497A2F41ED0C000820DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC5497E2F41ED0C000820DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACC5497F2F41ED0C000820DF /* EcoChefTests */,
+			);
+			name = EcoChefTests;
+			packageProductDependencies = (
+			);
+			productName = EcoChefTests;
+			productReference = ACC5497C2F41ED0C000820DF /* EcoChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACC549852F41ED0C000820DF /* EcoChefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC549962F41ED0C000820DF /* Build configuration list for PBXNativeTarget "EcoChefUITests" */;
+			buildPhases = (
+				ACC549822F41ED0C000820DF /* Sources */,
+				ACC549832F41ED0C000820DF /* Frameworks */,
+				ACC549842F41ED0C000820DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC549882F41ED0C000820DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACC549892F41ED0C000820DF /* EcoChefUITests */,
+			);
+			name = EcoChefUITests;
+			packageProductDependencies = (
+			);
+			productName = EcoChefUITests;
+			productReference = ACC549862F41ED0C000820DF /* EcoChefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC549672F41ED0A000820DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					ACC5496E2F41ED0A000820DF = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					ACC5497B2F41ED0C000820DF = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = ACC5496E2F41ED0A000820DF;
+					};
+					ACC549852F41ED0C000820DF = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = ACC5496E2F41ED0A000820DF;
+					};
+				};
+			};
+			buildConfigurationList = ACC5496A2F41ED0A000820DF /* Build configuration list for PBXProject "EcoChef" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC549662F41ED0A000820DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACC549702F41ED0A000820DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC5496E2F41ED0A000820DF /* EcoChef */,
+				ACC5497B2F41ED0C000820DF /* EcoChefTests */,
+				ACC549852F41ED0C000820DF /* EcoChefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC5496D2F41ED0A000820DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC5497A2F41ED0C000820DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC549842F41ED0C000820DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC5496B2F41ED0A000820DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC549782F41ED0C000820DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC549822F41ED0C000820DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC5497E2F41ED0C000820DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC5496E2F41ED0A000820DF /* EcoChef */;
+			targetProxy = ACC5497D2F41ED0C000820DF /* PBXContainerItemProxy */;
+		};
+		ACC549882F41ED0C000820DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC5496E2F41ED0A000820DF /* EcoChef */;
+			targetProxy = ACC549872F41ED0C000820DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACC5498E2F41ED0C000820DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z2M2DPBAPV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC5498F2F41ED0C000820DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z2M2DPBAPV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC549912F41ED0C000820DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2M2DPBAPV;
+				ENABLE_PREVIEWS = YES;
+				GEMINI_API_KEY = "";
+				GEMINI_MODEL = "gemini-1.5-flash";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_AI_PROVIDER = auto;
+				INFOPLIST_KEY_CFBundleDisplayName = EcoChief;
+				INFOPLIST_KEY_GEMINI_API_KEY = "$(GEMINI_API_KEY)";
+				INFOPLIST_KEY_GEMINI_MODEL = "$(GEMINI_MODEL)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "EcoChef uses the camera to scan food barcodes for quick fridge logging.";
+				INFOPLIST_KEY_OPENAI_API_KEY = "$(OPENAI_API_KEY)";
+				INFOPLIST_KEY_OPENAI_MODEL = "$(OPENAI_MODEL)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OPENAI_API_KEY = "";
+				OPENAI_MODEL = "gpt-4o-mini";
+				PRODUCT_BUNDLE_IDENTIFIER = AmanSh.EcoChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC549922F41ED0C000820DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2M2DPBAPV;
+				ENABLE_PREVIEWS = YES;
+				GEMINI_API_KEY = "";
+				GEMINI_MODEL = "gemini-1.5-flash";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_AI_PROVIDER = auto;
+				INFOPLIST_KEY_CFBundleDisplayName = EcoChief;
+				INFOPLIST_KEY_GEMINI_API_KEY = "$(GEMINI_API_KEY)";
+				INFOPLIST_KEY_GEMINI_MODEL = "$(GEMINI_MODEL)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "EcoChef uses the camera to scan food barcodes for quick fridge logging.";
+				INFOPLIST_KEY_OPENAI_API_KEY = "$(OPENAI_API_KEY)";
+				INFOPLIST_KEY_OPENAI_MODEL = "$(OPENAI_MODEL)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OPENAI_API_KEY = "";
+				OPENAI_MODEL = "gpt-4o-mini";
+				PRODUCT_BUNDLE_IDENTIFIER = AmanSh.EcoChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACC549942F41ED0C000820DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2M2DPBAPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AmanSh.EcoChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EcoChef";
+			};
+			name = Debug;
+		};
+		ACC549952F41ED0C000820DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2M2DPBAPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AmanSh.EcoChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoChef.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EcoChef";
+			};
+			name = Release;
+		};
+		ACC549972F41ED0C000820DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2M2DPBAPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AmanSh.EcoChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoChef;
+			};
+			name = Debug;
+		};
+		ACC549982F41ED0C000820DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2M2DPBAPV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AmanSh.EcoChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoChef;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC5496A2F41ED0A000820DF /* Build configuration list for PBXProject "EcoChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC5498E2F41ED0C000820DF /* Debug */,
+				ACC5498F2F41ED0C000820DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC549902F41ED0C000820DF /* Build configuration list for PBXNativeTarget "EcoChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC549912F41ED0C000820DF /* Debug */,
+				ACC549922F41ED0C000820DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC549932F41ED0C000820DF /* Build configuration list for PBXNativeTarget "EcoChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC549942F41ED0C000820DF /* Debug */,
+				ACC549952F41ED0C000820DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC549962F41ED0C000820DF /* Build configuration list for PBXNativeTarget "EcoChefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC549972F41ED0C000820DF /* Debug */,
+				ACC549982F41ED0C000820DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC549672F41ED0A000820DF /* Project object */;
+}
